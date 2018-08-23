@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build" : "next build",
-    "start" : "NODE_ENV=production node ./server.js"
+    "build": "next build",
+    "start": "NODE_ENV=production node ./server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,9 @@
     "next": "^6.1.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "next-manifest": "^1.6.0",
+    "next-workbox": "^1.4.1"
   }
 }
