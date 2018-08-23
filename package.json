@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build":"next build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "next build",
+    "start" : "NODE_ENV=production node ./server.js"
   },
   "keywords": [],
   "author": "",

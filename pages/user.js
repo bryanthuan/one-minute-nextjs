@@ -8,7 +8,7 @@ const User = ({user}) => (
     <div>Created: {user.created}</div>
     <div>Karma: {user.karma}</div>
     <div className='about' dangerouslySetInnerHTML={
-      {__html:user.about||''}
+      {__html: user.about || ''}
     }></div>
     <style jsx>{`
     {
