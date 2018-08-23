@@ -22,7 +22,7 @@ const User = ({user}) => (
   </div>
 )
 export default class extends Component {
-  static async getInititialProps({query}){
+  static async getInitialProps({query}){
     return {
       user: await fetch(`/user/${query.id}`)
     }
@@ -30,7 +30,6 @@ export default class extends Component {
   render(){
     return (
       <Page>
-        {this.props.user}
         <User user={this.props.user} />
       </Page>
     )
